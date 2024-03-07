@@ -17,6 +17,7 @@
     "editorconfig": true
   },
   "devDependencies": {
+    "bootstrap": "^5.3.3",
     "esbuild": "^0.20.1",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",

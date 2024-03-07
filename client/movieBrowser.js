@@ -1,8 +1,15 @@
 // Bring in the retrieveMovies function for local use
 import { retrieveMoviesAsync, retrieveDetailsAsync } from './dataHelper.js'
 
+// Import bootstrap css
+// IMPORTANT: importing css files only works with a bundler like esbuild
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+// Import bootstrap modal
+import { Modal } from 'bootstrap'
+
 // Construct our BS Modal
-const detailsModal = new bootstrap.Modal('#detailsModal')
+const detailsModal = new Modal('#detailsModal')
 
 // Run initialization code when the page finishes loading
 document.addEventListener('DOMContentLoaded', async () => {
