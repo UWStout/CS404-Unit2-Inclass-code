@@ -3,7 +3,7 @@ import Express from 'express'
 import fs from 'fs'
 
 // Read in the movie data and parse the JSON
-const myRawData = fs.readFileSync('./server/data/myflixdata-2022.json', {
+const myRawData = fs.readFileSync('./server/data/myflixdata-2024.json', {
   encoding: 'utf8'
 })
 const movieData = JSON.parse(myRawData)

@@ -20,5 +20,12 @@
   "editor.rulers": [80],
 
   // Custom code-spellcheck words
-  "cSpell.words": ["Berrier", "Flix", "IMDB"]
+  "cSpell.words": ["Berrier", "Flix", "IMDB", "myflixdata", "outdir"],
+  "cSpell.ignorePaths": [
+    ".vscode",
+    "package-lock.json",
+    "node_modules",
+    ".eslintrc.json",
+    "server/data"
+  ]
 }
