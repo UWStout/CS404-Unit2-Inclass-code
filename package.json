@@ -1,0 +1,33 @@
+{
+  "name": "module2-3",
+  "version": "0.1.0",
+  "description": "MyFlix movie browser with express and esbuild",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server/server.js",
+    "server:dev": "nodemon server/server.js",
+    "client": "esbuild client/movieBrowser.js --target=es6 --bundle --minify --outdir=public",
+    "client:dev": "esbuild client/movieBrowser.js --target=es6 --watch --bundle --sourcemap --outdir=public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth Berrier",
+  "license": "MIT",
+  "prettier": {
+    "editorconfig": true
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.3.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

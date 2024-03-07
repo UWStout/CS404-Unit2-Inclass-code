@@ -1,0 +1,24 @@
+{
+  // Save automatically when focus changes
+  "files.autoSave": "onFocusChange",
+
+  // Format entire file when pasting or saving, but not when typing
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  // Configure default formatter for js/json files
+  "[json][javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+
+  // Ensure prettier runs last
+  "vs-code-prettier-eslint.prettierLast": false,
+
+  // Show a ruler line at 80 characters
+  "editor.rulers": [80],
+
+  // Custom code-spellcheck words
+  "cSpell.words": ["Berrier", "Flix", "IMDB"]
+}

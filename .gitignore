@@ -1,0 +1,12 @@
+# Ignore the movie images (get these from Canvas)
+public/images
+
+# Ignore node dependencies
+node_modules
+
+# Ignore any private keys / secrets
+.env
+
+# Ignore common operating system files
+.DS_Store
+Desktop.ini
